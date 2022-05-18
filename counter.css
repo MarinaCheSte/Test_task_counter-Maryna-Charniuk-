@@ -1,0 +1,32 @@
+#addCounter {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: fit-content;
+  margin: auto;
+  background: #e2ece9;
+  border-radius: 5px;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  height: 35px;
+  width: 30px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 1.5em;
+  border: none;
+  color: white;
+  background-color: #5ca4a9;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+button:disabled {
+  background-color: #9bc1bc;
+}
